@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test artifacts and screenshots
+shots/
+*.rgba
+
+# Environment files and credentials
+.env
+.env.*
+*.key
+*.pem

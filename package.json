@@ -1,0 +1,14 @@
+{
+  "name": "stellar-drift",
+  "private": true,
+  "description": "A procedural solar system you can fly a spaceship through and land on planets, rendered with WebGPU, bundled into one HTML file",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "build:readable": "node build.mjs --readable",
+    "build:dev": "node build.mjs --dev"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
